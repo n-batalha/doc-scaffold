@@ -28,7 +28,7 @@ Usage
 * run :code:`make watch-pdf` (for live-review). See the output in :code:`.build/`
 * profit!
 
-Replace pdf by other formats (add them in the :code:`Makefile`)
+Replace pdf by other formats (add them in the :code:`Makefile`). See `here <https://pandoc.org/MANUAL.html#option--to>`_ the full list of supported formats (by Pandoc).
 
 Requirements
 ------------

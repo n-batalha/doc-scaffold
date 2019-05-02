@@ -7,7 +7,7 @@ Document skaffold (alpha)
 Intro (and features)
 --------------------
 
-This repo contains a skaffold for most simple one-off rich text documents that need to be in a binary portable format (e.g. pdf).
+This repo contains a basic skaffold to produce simple documents in a binary portable format (e.g. pdf) from reStructuredText.
 
 It is a simple alternative to Word or Google Docs, and the purpose of this repo is to have most boilerplate setup ready to be used so one can focus on the content. It needs to be repackaged differently for easier consumption and better re-usability of common commands.
 

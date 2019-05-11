@@ -17,6 +17,7 @@ I wanted a system that:
 * is stored in clear text, to be easily stored and reviewed in git (namely in Pull Requests)
 * has a live preview - it watches for changes to the doc (via :code:`make watch-<format>`) and rebuilds upon file changes
 * uses reStructuredText (although easy to swap to others) for an easy yet powerful markup (automatic table of contents, code syntax highlighting, built-in footnotes, etc)
+* allows diagrams as code
 * is decoupled from the output format - several can be produced (via Pandoc or Sphinx)
 
 It's a minimal amount of code ATM, all in the :code:`Makefile`, and is the best documentation.
@@ -37,5 +38,6 @@ Requirements
 * `make <https://www.gnu.org/software/make/>`_
 * `pandoc <https://pandoc.org/>`_
 * `inotify-tools <http://github.com/rvoicilas/inotify-tools/wiki>`_ (for the live preview)
+* `mermaid-filter <https://github.com/raghur/mermaid-filter>`_ (for mermaid diagrams)
 
 .. target-notes::

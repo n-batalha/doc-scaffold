@@ -1,5 +1,5 @@
 DATE := $(shell date "+%B %e, %Y")
-PANDOC = pandoc -M date="${DATE}" --toc --toc-depth=6 src/main.rst
+PANDOC = pandoc -F mermaid-filter -M date="${DATE}" --toc --toc-depth=6 src/main.rst
 
 BUILD_DIR = .build
 
